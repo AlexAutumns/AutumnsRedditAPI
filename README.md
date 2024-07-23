@@ -17,7 +17,7 @@
 
 ## TO-DO list
 
-Stuff I need to develop or fix :P
+Stuff I need to develop or fix later :P
 
 -   remember to link repository in Notes.js
 -   make viewable comment section of a post and make it appear when user clicks comments button
@@ -27,6 +27,8 @@ Stuff I need to develop or fix :P
 -   fix replies in Comment.js
 
 -   some scrollbars have a white block at the bottom (specifically in comments)
+
+-   fix posts / comments / replies not loading because of too many requests
 
 -   ### Renders in Article.js
 

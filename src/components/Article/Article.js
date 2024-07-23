@@ -264,10 +264,6 @@ function Article(props) {
                     </button>
                     <Comments
                         comments={comments}
-                        post={[
-                            props.article.data.title,
-                            `https://reddit.com${props.article.data.permalink}`,
-                        ]}
                     />
                 </div>
             )}

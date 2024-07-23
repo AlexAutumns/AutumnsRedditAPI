@@ -34,3 +34,10 @@
 .comment h4 {
     font-size: 1.1em;
 }
+
+
+.replies-container{
+    max-height: 20em;
+    overflow:auto;
+    font-size: 0.9em;
+}

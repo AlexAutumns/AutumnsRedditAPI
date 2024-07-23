@@ -12,14 +12,14 @@ function App() {
     const [subreddit, setSubreddit] = useState("hololive");
 
     const [searchBar, setSearchBar] = useState(subreddit);
-    const [articleLimit, setArticleLimit] = useState(20);
+    const [articleLimit, setArticleLimit] = useState(15);
 
     useEffect(() => {
         let url = "";
         if (subreddit.toLowerCase() === "home" || subreddit === "") {
             url = `https://www.reddit.com/.json?limit=${articleLimit}`;
         } else {
-            url = `https://www.reddit.com/r/${subreddit}.json?limit=${articleLimit}`;
+            url = `https://www.reddit.com/r/${subreddit}/.json?limit=${articleLimit}`;
         }
 
         fetch(url)
@@ -49,9 +49,8 @@ function App() {
     };
 
     const handleLoadMore = () => {
-        console.log(`Loading more posts...`);
         setArticleLimit((prev) => prev + 10);
-        console.log(`Posts Loaded: ${articleLimit}`);
+        console.log(`10 MORE POSTS LOADING...`);
     };
 
     const observer = useRef();
