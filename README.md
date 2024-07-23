@@ -1,6 +1,6 @@
 # Autumn Reddit
 
-## About
+## ABOUT
 
 -   a Reddit API project for portfolio
 -   scroll through reddit with a new look
