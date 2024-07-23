@@ -1,0 +1,36 @@
+.comment {
+    display: flex;
+    text-align: left;
+
+    flex-direction: column;
+
+    border-radius: 1rem;
+    border: orange 2px solid;
+
+    padding: 0.5rem;
+
+    margin: 0.3em;
+}
+
+.comment-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.comment-info button {
+    font-weight: 600;
+    font-size: 0.8em;
+
+    margin: 0px;
+    padding: 0.5em 0.5em;
+}
+
+.comment h4 {
+    font-size: 1.1em;
+}

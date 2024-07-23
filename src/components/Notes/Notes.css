@@ -1,0 +1,81 @@
+/* notes */
+.notes {
+    color: white;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 16%;
+    background-color: rgba(42, 42, 42, 0.8);
+    max-width: 25%;
+
+    overflow: auto;
+
+    padding: 0px;
+
+    border-top: rgb(55, 55, 55) 10px solid;
+    border-right: rgb(55, 55, 55) 8px solid;
+    border-bottom: rgb(55, 55, 55) 10px solid;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.notes .note {
+    padding: 0px;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.notes .note .note-body {
+    margin-right: 0.4rem;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.notes .note-list {
+    display: flex;
+    border-left: rgb(55, 55, 55) 5px solid;
+    margin: 0px;
+
+    flex-direction: column;
+    overflow: auto;
+    max-height: 35em;
+}
+
+.note a {
+    color: orange;
+    text-decoration: underline;
+}
+
+.notes .buttons-container {
+    display: flex;
+    padding: 0px;
+    padding-right: 0.3rem;
+    margin: 0px 0.3rem;
+    flex-direction: column;
+}
+
+.notes button {
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border-radius: 1em;
+
+    padding: 0.2rem 0.7rem;
+    margin: 0.3rem auto;
+
+    width: 20px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    writing-mode: vertical-rl; /* Sets the text to be vertical */
+    text-orientation: upright; /* Ensures the text is upright */
+    white-space: nowrap; /* Prevents text wrapping */
+
+    font-weight: 800;
+}
+
+
+.note-body ul li{
+    margin: 0.5em 0;
+}
