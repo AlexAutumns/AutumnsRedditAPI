@@ -142,7 +142,7 @@ const NotesComponent = () => {
                                 </li>
 
                                 <li>
-                                    <a href="" target="_blank">
+                                    <a href="https://github.com/AlexAutumns/AutumnsRedditAPI" target="_blank">
                                         Github
                                     </a>
                                 </li>
