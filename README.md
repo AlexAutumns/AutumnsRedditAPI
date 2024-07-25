@@ -19,7 +19,7 @@
 
 Stuff I need to develop or fix later :P
 
--   remember to link repository in Notes.js
+-   make the fetch function async functions
 -   make viewable comment section of a post and make it appear when user clicks comments button
 -   after search the page must go to the top of the page
 
